@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+
+    width: 100%;
+    height: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url(./images/foods.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.navbar{
+
+    background-color:white;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+.logo{
+
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
+.navbar ul li{
+
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar ul li a{
+
+    text-decoration: none;
+    color: goldenrod;
+    font-family: 'Times New Roman';
+    padding: 10px 25px;
+    margin: 0 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover{
+
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.food{
+
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    margin-top: 25%;
+    font-family: 'Times New Roman';
+    text-transform: uppercase;
+}
+
+.Food_title{
+
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.Food_title h1 {
+
+    color: goldenrod;
+    font-size: 40px;
+    margin: 10px 0;
+    font-family:'Times New Roman';
+}
+
+
+.foods_image{
+
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+
+.images{
+
+    width: 250px;
+    height: 300px;
+    margin: 15px 20px;
+    padding: 10px 15px;
+    flex-wrap: wrap;
+    box-shadow: 0 0 20px 0 goldenrod;
+    background-color: white;
+}
+
+.images h3{
+
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    transform: translateY(-225px);
+    border-bottom-right-radius: 20px;
+}
+
+.images h2{
+
+    margin-top: -25px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+}
+
+ .images button{
+
+    width: 120px;
+    height: 30px;
+    margin:5px;
+    padding: 5px 10px; 
+    color: black;
+    font-size: 15px;
+    border: transparent;
+    font-family:'Times New Roman';
+    background-color: goldenrod;  
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.images button:hover{
+
+    width: 150px;
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    cursor: pointer;
+}
+
+.images img{
+
+    border-radius: 5px;
+    width: 100%;
+    height: 75%;
+    cursor: pointer;
+
+}
+
+
+

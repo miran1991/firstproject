@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.7)), url(./images/background1.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo{
+
+    width: 150px;
+    height: 30px;
+    margin-top: 60px;
+    cursor: pointer;
+    border-radius: 15px;
+   
+}
+
+.navbar ul li{
+
+    list-style: none;
+    display: inline-block;
+    margin-top: 70px;
+    
+}
+
+.navbar ul li a{
+
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family:'Times New Roman';
+    padding: 8px 25px;
+    margin: 0 1px;
+    transition: 0.3s;
+
+}
+
+.navbar ul li a:hover{
+
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+    
+}
+
+.centent{
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 10%;    
+}
+
+h1{
+
+    color: white;
+    font-size: 70px;
+    font-family:'Times New Roman';
+    margin-bottom: 15px ;
+    text-transform: capitalize;
+    
+}
+
+p{
+
+    color: white;
+    font-size: 20px;
+    font-family:'Times New Roman';
+    text-transform: capitalize;
+   
+}
+
+.search{
+
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn_search{
+
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: red;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn_search:hover{
+
+    width: 8%;
+}
+
+.search input{
+
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    color: black ;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    background-color: snow;
+    border-radius: 15px;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: 1s;
+
+}
+
+.search input:hover{
+
+    width: 35%;
+
+}
